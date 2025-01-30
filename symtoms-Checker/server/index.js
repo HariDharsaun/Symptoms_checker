@@ -22,9 +22,9 @@ mongoose.connect("mongodb+srv://haridharsaun:hari1234@symptoms.ew9li.mongodb.net
 
 app.post('/getSymptoms',async (req,res)=>{
     try{
-        const symptom = req.body.symptom.trim();
+        const symptom = req.body.symptom.replace(/\s+/g, "").toLowerCase();
         console.log(symptom);
-        const result = await UserModel.findOne({symptom: { $regex: `^${symptom}$`, $options: 'i' }});
+        const result = await UserModel.findOne({symptom:symptom});
 
         if(result){
             res.json({disease:result.disease,advice:result.advice});
