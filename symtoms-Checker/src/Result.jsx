@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
+import { useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import "./result.css";
+import axios from 'axios'
 
 function Result() {
   const location = useLocation();
-  const { symptoms, diseases = ["No data available"], advice = "No advice available" } = location.state || {};
+  const symptoms = location.state?.symptoms || "No symptoms provided";
+  const [disease,setDisease ] = useState(["Loading...."]);
+  const [advice,setAdvice] = useState(["Loading...."]);
+
+  useEffect(()=>{
+      if(symptoms !== "No symptoms provided"){
+        axios.post('http://localhost:3001/getSymptoms',{symptom:symptoms})
+        .then(response=>{
+          setDisease(response.data.disease);
+          setAdvice(response.data.advice);
+        })
+        .catch(error=>{
+          console.error("Error fetching data:",error);
+          setDisease("Error fetching disease");
+          setAdvice("Error fetching advice");
+        });
+      }
+ } ,[symptoms]);
 
   return (
     <>
@@ -19,16 +38,12 @@ function Result() {
 
       <motion.div className="info-card">
         <h3>Symptoms Entered</h3>
-        <p>{symptoms || "No symptoms provided"}</p>
+        <p>{symptoms}</p>
       </motion.div>
 
       <motion.div className="info-card">
         <h3>Possible Diseases</h3>
-        <ul>
-          {diseases.map((disease, index) => (
-            <li key={index}>{disease}</li>
-          ))}
-        </ul>
+        <p>{disease}</p>
       </motion.div>
 
       <motion.div className="advice">

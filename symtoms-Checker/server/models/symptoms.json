@@ -1,0 +1,76 @@
+[{
+    "symptom": "Fever",
+    "disease": "Flu",
+    "advice": "Drink plenty of fluids, rest, and take paracetamol if necessary."
+  },
+  {
+    "symptom": "Cough",
+    "disease": "Bronchitis",
+    "advice": "Avoid smoking, drink warm fluids, and take cough syrup if needed."
+  },
+  {
+    "symptom": "Headache",
+    "disease": "Migraine",
+    "advice": "Rest in a dark, quiet room, stay hydrated, and take pain relievers if necessary."
+  },
+  {
+    "symptom": "Stomach Pain",
+    "disease": "Gastritis",
+    "advice": "Avoid spicy food, eat smaller meals, and take antacids if required."
+  },
+  {
+    "symptom": "Shortness of Breath",
+    "disease": "Asthma",
+    "advice": "Use an inhaler if prescribed, avoid allergens, and practice deep breathing exercises."
+  },
+  {
+    "symptom": "Skin Rash",
+    "disease": "Allergy",
+    "advice": "Avoid allergens, use antihistamines, and apply soothing creams if necessary."
+  },
+  {
+    "symptom": "Sore Throat",
+    "disease": "Tonsillitis",
+    "advice": "Gargle with warm salt water, stay hydrated, and take lozenges."
+  },
+  {
+    "symptom": "Dizziness",
+    "disease": "Low Blood Pressure",
+    "advice": "Drink more fluids, eat small frequent meals, and avoid standing up too quickly."
+  },
+  {
+    "symptom": "Joint Pain",
+    "disease": "Arthritis",
+    "advice": "Engage in mild exercise, maintain a healthy weight, and use pain relief creams."
+  },
+  {
+    "symptom": "Fatigue",
+    "disease": "Anemia",
+    "advice": "Eat iron-rich foods like spinach and red meat, and consider taking iron supplements."
+  },
+  {
+    "symptom": "Frequent Urination",
+    "disease": "Diabetes",
+    "advice": "Monitor blood sugar levels, maintain a healthy diet, and exercise regularly."
+  },
+  {
+    "symptom": "Nausea",
+    "disease": "Food Poisoning",
+    "advice": "Stay hydrated, avoid solid foods until you feel better, and rest."
+  },
+  {
+    "symptom": "Chest Pain",
+    "disease": "Heart Disease",
+    "advice": "Seek medical attention immediately, avoid heavy meals, and manage stress."
+  },
+  {
+    "symptom": "Blurred Vision",
+    "disease": "Glaucoma",
+    "advice": "Regular eye check-ups, avoid excessive screen time, and follow prescribed medication."
+  },
+  {
+    "symptom": "Back Pain",
+    "disease": "Sciatica",
+    "advice": "Maintain good posture, apply heat/cold packs, and do stretching exercises."
+  }
+]
