@@ -1,0 +1,77 @@
+[
+  {
+    "symptom": "cough",
+    "disease": "Bronchitis",
+    "advice": "Avoid smoking, drink warm fluids, and take cough syrup if needed."
+  },
+  {
+    "symptom": "fever",
+    "disease": "Flu",
+    "advice": "Drink plenty of fluids, rest, and take paracetamol if necessary."
+  },
+  {
+    "symptom": "headache",
+    "disease": "Migraine",
+    "advice": "Rest in a dark room, avoid triggers, and take prescribed medication."
+  },
+  {
+    "symptom": "sorethroat",
+    "disease": "Tonsillitis",
+    "advice": "Drink warm liquids, use throat lozenges, and rest your voice."
+  },
+  {
+    "symptom": "runnyrose",
+    "disease": "Common Cold",
+    "advice": "Stay hydrated, use steam inhalation, and rest well."
+  },
+  {
+    "symptom": "chestpain",
+    "disease": "Heart Disease",
+    "advice": "Seek medical attention immediately, avoid heavy meals, and manage stress."
+  },
+  {
+    "symptom": "shortnessofbreath",
+    "disease": "Asthma",
+    "advice": "Use prescribed inhalers, avoid allergens, and practice breathing exercises."
+  },
+  {
+    "symptom": "dizziness",
+    "disease": "Vertigo",
+    "advice": "Avoid sudden movements, stay hydrated, and do vestibular exercises if recommended."
+  },
+  {
+    "symptom": "nausea",
+    "disease": "Food Poisoning",
+    "advice": "Stay hydrated, avoid solid foods until you feel better, and rest."
+  },
+  {
+    "symptom": "fatigue",
+    "disease": "Anemia",
+    "advice": "Eat iron-rich foods like spinach and red meat, and consider taking iron supplements."
+  },
+  {
+    "symptom": "backpain",
+    "disease": "Sciatica",
+    "advice": "Maintain good posture, apply heat/cold packs, and do stretching exercises."
+  },
+  {
+    "symptom": "blurredvision",
+    "disease": "Glaucoma",
+    "advice": "Regular eye check-ups, avoid excessive screen time, and follow prescribed treatments."
+  },
+  {
+    "symptom": "jointpain",
+    "disease": "Arthritis",
+    "advice": "Engage in mild exercise, maintain a healthy weight, and use pain relief medication."
+  },
+  {
+    "symptom": "frequenturination",
+    "disease": "Diabetes",
+    "advice": "Monitor blood sugar levels, maintain a healthy diet, and exercise regularly."
+  },
+  {
+    "symptom": "stomachpain",
+    "disease": "Gastritis",
+    "advice": "Avoid spicy food, eat smaller meals, and take antacids if required."
+  }
+]
