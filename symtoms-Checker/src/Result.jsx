@@ -37,12 +37,12 @@ function Result() {
       <h2 className="header">Health Analysis</h2>
 
       <motion.div className="info-card">
-        <h3>Symptoms Entered</h3>
+        <h3>Symptom Entered</h3>
         <p>{symptoms}</p>
       </motion.div>
 
       <motion.div className="info-card">
-        <h3>Possible Diseases</h3>
+        <h3>Possible Disease</h3>
         <p>{disease}</p>
       </motion.div>
 

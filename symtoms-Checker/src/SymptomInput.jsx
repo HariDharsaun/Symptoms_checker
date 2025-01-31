@@ -25,7 +25,7 @@ function SymptomInput() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <h2 className="header">Enter Symptoms</h2>
+      <h2 className="header">Enter a Symptom</h2>
       <motion.div className="input-card">
         <input
           className="input-field"
