@@ -8,7 +8,7 @@ import Signup from "./Signup";
 function App() {
   return (
     <>
-    <div className="nav"><div className="logo"><img src=".src/assets/logo.png"></img></div><h2>Symptoms Checker</h2></div>
+    <div className="nav"><div className="logo"><img src="./src/assets/logo.png"></img></div><h2>Symptoms Checker</h2></div>
     <Router>
       <Routes>
         <Route path="/" element={<Login/>}></Route>

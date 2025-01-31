@@ -13,7 +13,7 @@ function Result() {
 
   useEffect(()=>{
       if(symptoms !== "No symptoms provided"){
-        axios.post('https://symptoms-checker.onrender.com/getSymptoms',{symptom:symptoms})
+        axios.post('http://localhost:3001/getSymptoms',{symptom:symptoms})
         .then(response=>{
           setDisease(response.data.disease);
           setAdvice(response.data.advice);
